@@ -4,13 +4,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="src/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="src/images/favicon/favicon.ico" />
     <link rel="stylesheet" href="src/style.css" />
     <title>Space Parallax</title>
   </head>
   <body>
     <main class="main">
-      <section class="hero">Hero</section>
+      <section class="hero">
+        <div class="hero__container parallax">
+          <img
+            class="parallax__layer"
+            data-speed="1"
+            data-direction="1"
+            src="src/images/parallax/img-1.png"
+            alt="stars"
+            id="stars"
+          />
+          <img
+            class="parallax__layer"
+            data-speed="1.25"
+            data-direction="1"
+            src="src/images/parallax/img-2.png"
+            alt="moon"
+            id="moon"
+          />
+          <img
+            class="parallax__layer"
+            data-speed="0.5"
+            data-direction="1"
+            src="src/images/parallax/img-3.png"
+            alt="mountains"
+            id="mountains-backward"
+          />
+          <img
+            class="parallax__layer"
+            data-speed="0"
+            data-direction="1"
+            src="src/images/parallax/img-4.png"
+            alt="mountains"
+            id="mountains-forward"
+          />
+          <a
+            class="button parallax__layer"
+            data-speed="1.5"
+            data-direction="1"
+            href="#content"
+            id="start-btn"
+            >Start Reading</a
+          >
+        </div>
+      </section>
+      <section class="content" id="content">
+        <div class="content__container container">
+          <h1 class="heading-primary">Space Parallax</h1>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+            molestiae nisi quod culpa repellat repellendus harum iure enim
+            doloremque suscipit? Cupiditate esse ullam praesentium quisquam
+            tempore tempora, alias magnam soluta?
+          </p>
+          <br />
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+            impedit distinctio tenetur maiores esse reprehenderit sequi ullam
+            error voluptate quasi amet nemo illo voluptatum architecto quis aut,
+            hic numquam possimus. Culpa, animi, eos fuga quos voluptates debitis
+            iusto officia quod molestiae, cumque accusantium. Odio est labore
+            fuga corrupti optio, qui aspernatur quisquam sit reprehenderit, ut
+            quod praesentium vel incidunt provident!
+          </p>
+          <br />
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            eius aut cum necessitatibus alias quam soluta, deserunt repellendus
+            explicabo, adipisci omnis esse quo et id obcaecati ad veniam?
+            Minima, impedit?
+          </p>
+          <br />
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illum
+            ab fugit voluptatem eius error velit tempore, alias vitae? Enim
+            laboriosam dolores itaque dolorem dolorum maxime iusto voluptates
+            aliquam optio! Nisi, sunt nemo! Eveniet optio reprehenderit harum
+            in, minus tempore quidem consectetur rem aspernatur, repellendus
+            officia, natus voluptate aliquid. Voluptates, iure deleniti! Sunt
+            tenetur, non recusandae deleniti officiis vitae deserunt. Molestias
+            consequatur perferendis saepe ut aspernatur cupiditate minima,
+            deserunt, omnis asperiores nulla accusamus! Odit aut deserunt esse
+            consequuntur, assumenda deleniti natus repellat quasi veniam ut,
+            minima fugiat eius, cupiditate veritatis? Similique quas quae
+            maxime, modi itaque in voluptatibus cupiditate earum neque atque
+            labore repudiandae expedita debitis aliquid eum? Similique quibusdam
+            ullam modi eveniet sit labore voluptatibus dolores dolorem quaerat
+            sapiente! Fuga nisi nostrum ipsum expedita aperiam architecto, illo
+            veniam voluptate. Rerum odio odit tenetur fuga necessitatibus,
+            beatae expedita, nihil, nobis commodi ex voluptatem autem.
+            Voluptatum corporis modi similique magnam explicabo! Dolorum alias
+            fugiat libero fugit. Cupiditate, ut eius! Id fuga est quae accusamus
+            suscipit quidem at qui voluptatibus blanditiis molestias repellendus
+            voluptatem fugiat consequuntur eos, eaque officiis cupiditate hic
+            ducimus!
+          </p>
+        </div>
+      </section>
     </main>
     <script src="src/script.js"></script>
   </body>

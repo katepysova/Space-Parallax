@@ -15,6 +15,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 ScrollSmoother.create({
   wrapper: ".wrapper",
   content: ".content",
+  smoothTouch: 0.1,
 });
 
 button.addEventListener("click", (event) => {

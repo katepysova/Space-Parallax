@@ -1,12 +1,12 @@
 # Space Parallax
 
-Space Parallax [demo](https://katepysova.github.io/SpaceParallax/).
+Space Parallax [demo](https://katepysova.github.io/Space-Parallax/).
 
 ## Installation
 
 1. Clone this repo or downloand zip:
 
-   `git@github.com:katepysova/SpaceParallax.git`
+   `git@github.com:katepysova/Space-Parallax.git`
 
 2. Change your current directory to this project directory.
 

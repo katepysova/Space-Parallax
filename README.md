@@ -1,12 +1,12 @@
-# Music Player
+# Space Parallax
 
-Music Player.
+Space Parallax [demo](https://katepysova.github.io/SpaceParallax/).
 
 ## Installation
 
 1. Clone this repo or downloand zip:
 
-   `git@github.com:katepysova/Music-Player.git`
+   `git@github.com:katepysova/SpaceParallax.git`
 
 2. Change your current directory to this project directory.
 

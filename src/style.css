@@ -101,12 +101,25 @@ body {
   mix-blend-mode: screen;
 }
 
-#mountains-backward {
+#mountains-backward-1 {
+  z-index: -1;
+}
+
+#mountains-backward-2 {
   z-index: -2;
 }
 
-#mountains-forward {
+#mountains-backward-3 {
   z-index: -1;
+}
+
+#mountains-forward {
+  z-index: 1;
+}
+
+#start-btn {
+  position: relative;
+  z-index: 2;
 }
 
 .hero__container {

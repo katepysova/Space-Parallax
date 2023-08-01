@@ -82,6 +82,10 @@ body {
   pointer-events: none;
 }
 
+.parallax__layer {
+  will-change: transform;
+}
+
 .parallax img {
   position: absolute;
   top: 0;
